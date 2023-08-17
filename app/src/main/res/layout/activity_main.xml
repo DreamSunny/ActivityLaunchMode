@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/standard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="standard"
+            android:gravity="center"/>
+
+        <Button
+            android:id="@+id/singleTop"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="singleTop" />
+
+        <Button
+            android:id="@+id/singleTask"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="singleTask" />
+
+        <Button
+            android:id="@+id/singleInstance"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="singleInstance" />
+
+        <Button
+            android:id="@+id/singleInstancePerTask"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="singleInstancePerTask" />
+
+    </LinearLayout>
+
+
+</FrameLayout>
